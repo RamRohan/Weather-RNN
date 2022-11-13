@@ -20,3 +20,7 @@ A learnig rate of 0.001125 produced the best results after tuning.
 I ran the trials for 128 epocks with early stopping callback.
 
 The last layer was a dense layer that had the output size of the prediction window which was 24 hours.
+
+**Results**
+
+This achieved an amazing accuracy of 91.85% on the score (unseen) set on submission.
