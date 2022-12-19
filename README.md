@@ -9,7 +9,7 @@ Dataset included other information, namely temperature, pressure, humidity, loca
 
 **Architecture**
 
-I used GPUs to acheive good results for this model. I tried LSTMs, as well as GPU's in cobination with LSTMs, and just GPUs gave the best results.
+I used GPUs to acheive good results for this model. I tried LSTMs, as well as GPU's in combination with LSTMs, and just GPUs gave the best results.
 
 I experimented and tuned with different architectures and layer sizes and the one that gave the best results was 5 GRU layers as an encoder, followed by a dense layer, with the first and the last GRU layer having 1024 units, and the middle three layers having 512 units each.
 
